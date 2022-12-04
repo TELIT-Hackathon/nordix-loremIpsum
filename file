@@ -1,0 +1,87 @@
+C:\Users\andrii.kuts\AppData\Local\Programs\Python\Python38\python.exe "C:/Users/andrii.kuts/OneDrive - Technicka univerzita v Kosiciach/hackdeuch_nordics/test_bert.py"
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+seven peaks software
+gcc marketing
+nybble group
+intertoons
+cleverlance enterprise solutions a.s.
+greenlogic
+teonite
+Token indices sequence length is longer than the specified maximum sequence length for this model (570 > 512). Running this sequence through the model will result in indexing errors
+eltexsoft
+venrup
+amcon soft inc.
+factory
+dockyard
+valor software
+interactivated solutions
+venture aviator
+vault innovation
+classic informatics
+zcodeo llp
+alliance software pty ltd
+devima solutions
+clavis technologies
+bigcheese
+prime tsr
+mobilepundits
+divisio
+clean commit
+third rock techkno
+sisu technologies
+sprint innovations
+solveit
+mad mountain
+inventale custom projects
+ishir
+sunnet solutions
+white label coders
+westlink
+goodworklabs
+pyramidion solutions
+chudovo
+flint hills group
+bravelogy
+active logic
+clarika
+yugasa software labs
+exelor
+corner case technologies
+ynd
+wide open technologies
+neo vision
+carbonteq
+dreamsoft4u it solution simplified
+nebucode
+my virtual teams
+jevera software solutions
+laracle
+atolye15
+moka
+techliance
+metal toad
+reenbit
+graffino
+stride consulting
+seb azzo
+rootstack
+elsner technologies pvt ltd
+entrision
+aurora solutions
+software service & innovation
+inssio
+interexy
+distillery
+mirit - laravel softwarehouse
+javeo
+webini
+weavers web solutions pvt ltd
+parkside interactive
+lightflows
+coblit sp. z o.o.
+3xm group
+webmil web-production
+intobi
+codemotion

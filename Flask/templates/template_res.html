@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="utf-8"/>
+    <title>CryptoTrader</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/screenStyle.css') }}">
+<!--    <link rel="stylesheet" href="css/printStyle.css">-->
+<!--    <meta name="google-signin-client_id" content="943244103648-97klkfncnnisaq3m99s2tj16i1e8um9c.apps.googleusercontent.com">-->
+
+</head>
+
+<body>
+
+<nav >
+    <a href="#welcome">
+    <svg height="50px" width="55px">
+        <line x1="50" x2="30" y1="10" y2="30" stroke="#16c784" stroke-width="5"/>
+        <line x1="20" x2="0" y1="25" y2="50" stroke="#16c784" stroke-width="5"/>
+        <line x1="18" x2="33" y1="25" y2="30" stroke="#16c784" stroke-width="5"/>
+        <line x1="35" x2="50" y1="10" y2="10" stroke="#16c784" stroke-width="5"/>
+        <line x1="50" x2="50" y1="10" y2="25" stroke="#16c784" stroke-width="5"/>
+    </svg>
+    </a>
+    <a href="#welcome" style="color: #16c784; font-size: 30px">CryptoTrader</a>
+    <a href="#crypto">Cryptocurrencies</a>
+    <a href="#FAQ">FAQ</a>
+    <a href="#BTC">BTC Price</a>
+    <a href="#main/1/20">Opinions</a>
+    <a href="#addOpinion">Add Opinion</a>
+    <a href="#opinions">Visitor opinions</a>
+    <div style="float: right;" id="SignInButton"></div>
+
+
+</nav>
+
+<div style="text-align: right; color: #fff" id="SignedIn">
+    You are signed in as <span id="userName"></span> <button onclick="signOut()">Sign Out</button>
+</div>
+
+<!--    <div class="table-di    v">-->
+<!--        <a><img src=img/Litecoin.png class="img-center"></a>-->
+<!--        <h4 style="margin: 0">Litecoin</h4>-->
+<!--    </div>>-->
+<main style="display:block;"  id="articles">
+		{% for key in r_dict.keys() %}
+        <div class="table-div">
+        <a><img src={{full_data_img}} class="img-center"></a>
+		  <h4 style="margin: 0">{{ key }}</h4>
+        </div>
+		{% endfor %}
+</main>
+
+
+
+
+
+
+<footer>
+    <ul>
+        <li><a href="https://www.facebook.com/andrej.kuts.3/" target="_blank"><img
+                src="img/Facebook.png" alt="Facebook link" style="width: 40px; height: auto;"></a>
+            <a href="https://www.instagram.com/kuczandrej/" target="_blank"><img src="img/Instagram.png"
+                                                                                          alt="Instagram link"
+                                                                                          style="width: 40px; height: auto;"></a>
+            <a href="mailto:andrej.kuts1@gmail.com?Subject=Reakcia%20na%20blog%20CryptoTrader%20"><img
+                    src="img/gmail_icon-icons.com_62758.png" alt="mail link" style="width: 40px; height: auto;"></a>
+        </li>
+        <li>© 2002 - 2022 Andrii Kuts</li>
+    </ul>
+
+</footer>
+</body>
+</html>

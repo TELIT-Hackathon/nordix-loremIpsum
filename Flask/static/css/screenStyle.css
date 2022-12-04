@@ -1,0 +1,379 @@
+.main img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 20px;
+}
+main
+{
+    grid-column-gap: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-right: 10vw ;
+}
+.advertisement
+{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 15vw;
+
+}
+.advertisement img
+{
+
+    width: 100%;
+    border-radius: 15px;
+}
+
+.main {
+
+    text-align: center;
+    display: grid;
+    padding: 10px 10px 10px 0;
+    grid-column-gap: 10px;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 10px;
+
+
+}
+
+td {
+    margin-right: 0;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+h4 {
+    color: #fff;
+}
+
+ol li {
+    margin-top: 10px;
+    display: inline-flex;
+    color: #fff;
+    padding: 5px 10px 5px 25px;
+    background-color: #222531;
+    border-radius: 15px;
+}
+
+
+body {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "segoe ui", Roboto, Helvetica, Arial, sans-serif;
+    background-color: rgb(23, 23, 26);
+}
+
+.description {
+
+    display: inline-block;
+    width: 80%;
+
+}
+
+
+.description1 {
+
+    display: inline-block;
+    width: 80%;
+    font-size: 20px;
+
+
+}
+
+.table-div {
+    /*text-align: center;*/
+    color: rgb(161, 167, 187);
+    min-width: 250px;
+
+    width: 25vw;
+    height: auto;
+    background-color: #323546;
+    border-radius: 15px;
+}
+
+.form_holder {
+    display: flex;
+    text-align: right;
+    width: 70vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    color: rgb(161, 167, 187);
+    background-color: #323546;
+    border-radius: 15px;
+
+}
+.article_form {
+    /*display: flex;*/
+    /*text-align: center;*/
+
+    width: auto;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    color: rgb(161, 167, 187);
+    background-color: #323546;
+    border-radius: 15px;
+
+}
+.comBlock{
+    display: block;
+    text-align: center;
+    width: 50vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    color: rgb(161, 167, 187);
+    background-color: #323546;
+    border-radius: 15px;
+}
+.comment-pages {
+
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 70vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    color: rgb(161, 167, 187);
+    background-color: #323546;
+    border-radius: 15px;
+}
+
+.form_element
+{
+    padding-top: 10px;
+}
+
+.form_image{
+    /*margin-left: 50px;*/
+    float: right;
+    /*max-width: 400px;*/
+    width: 30vw;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.long {
+    float: left;
+    padding-left: 5%;
+}
+.resizeable {
+    /*display: inline-block;*/
+    /*padding-top: 10px;*/
+    /*float: right;*/
+    padding-left: 10%;
+
+    /*padding-right: 10%;*/
+}
+input {
+    border-radius: 8px;
+}
+
+.input_class{
+    border-radius: 8px;
+}
+.required_inputs
+{
+    border-radius: 8px;
+    border-color: #16c784;
+}
+
+div img {
+
+    margin-top: 10px;
+    max-width: 80%;
+    height: auto;
+
+}
+
+div img:hover {
+    box-shadow: 4px 4px 4px 4px #16c784;
+    cursor: pointer;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+a {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "segoe ui", Roboto, Helvetica, Arial, sans-serif;
+
+    font-size: 20px;
+    color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+p {
+    padding: 0 10px 10px;
+    color: #fff;
+}
+
+nav a {
+
+    width: 100%;
+    height: auto;
+
+}
+
+nav {
+    text-align: center;
+}
+
+.price {
+    color: #fff;
+}
+
+
+.info {
+    max-width: 80%;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+}
+
+@media all and (max-width: 768px) {
+    .main, .main div, .main .main {
+
+        width: 100% !important;
+        /*clear:both;*/
+        /*margin-left: 5%;*/
+        /*margin-right: 5%;*/
+        display: inline-block;
+        margin-bottom: 10px;
+        font-size: 20px;
+        /*text-align:center;*/
+
+
+    }
+    .description
+    {
+        max-width: 80%;
+    }
+
+}
+
+@media all and (max-width: 768px) {
+    .cryptograf div, .cryptograf img {
+        width: 100% !important;
+        clear: both;
+        display: inline-block !important;
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 768px) {
+    p {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .advertisement {
+        display: none;
+    }
+    main {
+        overflow: hidden;
+        display: block;
+        margin: 0;
+        width: 100% !important;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+.about {
+    /*text-align: center;*/
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+.about h2 {
+    font-style: italic;
+
+    color: rgb(160, 160, 160);
+}
+
+.about p {
+    padding-left: 0;
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+    color: #fff;
+
+
+}
+.article_style {
+
+    text-align: center;
+    width: 60vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    height: auto;
+    overflow: auto;
+    display: block;
+    font-size: 25px;
+    color: rgb(161, 167, 187);
+    background-color: #323546;
+    border-radius: 15px;
+}
+
+
+.cryptograf {
+
+    text-align: center;
+    width: auto;
+    height: auto;
+    overflow: auto;
+    display: block;
+    font-size: 25px;
+    color: rgb(161, 167, 187);
+    background-color: #323546;
+    border-radius: 15px;
+}
+
+html::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #16c784, #ea3943);
+    border-radius: 30px;
+    box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, .25), inset -2px -2px 2px rgba(0, 0, 0, .25);
+}
+.transition_and_transform:hover img
+{
+    box-shadow: none;
+    transform: scale(1.2);
+    transition: .5s;
+}
+.transition_and_transform img
+{
+   padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.cryptograf {
+
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0;
+        width: 100%;
+    }
+}
